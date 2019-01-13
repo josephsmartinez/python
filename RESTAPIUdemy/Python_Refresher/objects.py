@@ -1,4 +1,5 @@
 #!/bin/python
+# Simple programming 
 
 # Simple JSON objects
 lottey_player = {
