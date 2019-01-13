@@ -53,9 +53,18 @@ for number in player_one.numbers:
 
 # We can also loop over the the JSON objects
 # Use items() to iterate across dictionary
-for playerno, playinfo  in players.items():
-    print(playerno, playinfo)
-    for number in playinfo['numbers']:
+for playerno, playerinfo  in players.items():
+    print(playerno, playerinfo)
+    for number in playerinfo['numbers']:
         if number == 7:
-            print(playerno + " is " + playinfo['name'] + " and has the number 7")
+            print(playerno + " is " + playerinfo['name'] + " and has the number 7")
    
+# We can calculate the average number picked by the users.
+total = 0
+average = 0
+number_of_players = 0
+for playerno, playerinfo  in players.items():
+    total = total + sum(playerinfo['numbers'])
+    number_of_players = number_of_players + 1
+print("The total is: " + str(total) + " Number of players: " + str(number_of_players))
+print ('The average numbers of the number is ' + str(total/number_of_players))    
