@@ -8,6 +8,12 @@
 
 [Incoming Request Data¶](http://flask.pocoo.org/docs/1.0/api/#incoming-request-data)
 
+## Flask RESTful
+
+Things to note!
+
+- jsonify is implemented as part of the RESTful package
+
 ## Python Information
 
 [Style Guide](https://www.python.org/dev/peps/pep-0008/#whitespace-in-expressions-and-statements)
