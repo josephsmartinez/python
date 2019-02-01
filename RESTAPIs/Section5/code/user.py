@@ -1,4 +1,5 @@
 import sqlite3
+from flask_restful import Resource
 
 class User(object):
   def __init__(self, id, username, password):
@@ -38,4 +39,11 @@ class User(object):
 
     connection.close()
     return user
-        
+
+class UserRegister(Resource):
+  def post(self):
+    #connection = sqlite3.connect('data.db')
+    #cursor = connection.cursor()
+    # REVIEW THIS >.> Signing up and writing Users to a database
+    
+    pass
