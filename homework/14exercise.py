@@ -7,7 +7,7 @@ the largest of the three. Do this without using the Python max() function! Hint:
 def max(numbers: list) -> int:
   '''
   Find max value
-  Return 0 is list empty
+  Return 0 if list empty
   '''
   if len(numbers) == 0: 
     return 0
