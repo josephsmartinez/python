@@ -31,7 +31,7 @@ data = response.json()
 print(type(data))
 print(data)
 
-# Printe the JSON Dic keys
+# Print the JSON Dic keys
 print(data.keys())
 
 # Access the keys from the JSON data
