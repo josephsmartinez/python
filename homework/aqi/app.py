@@ -17,4 +17,4 @@ def index():
 
 if __name__== '__main__':
   # host is default to localhost
-  app.run(debug=True, port=3000)
+  app.run(host="piggy.ad.fiu.edu",debug=True, port=3000)

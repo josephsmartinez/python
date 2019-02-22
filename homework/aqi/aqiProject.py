@@ -4,6 +4,7 @@
 
 import json, requests, googlemaps
 from fileio import FileIO
+from os import path
 
 def aqi_api(api_key=None,url=None) -> dict:
   '''
@@ -61,6 +62,7 @@ def google_api(lat_lon: dict) -> bool:
     if response.status_code == requests.codes.ok:
       FileIO.log("google request: ", str(response.status_code), "object type: ", response.headers.get('content-type'))
       open('city.png', 'wb').write(response.content)
+
       google_map_created = True
 
   except Exception as e:

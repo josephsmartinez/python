@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="example7.xsl"?>
+
+<breakfast_menu>
+    <food>
+        <name>Grilled Cheese</name>
+        <price>$5.95</price>
+        <description>
+             Classic sandwich with Sourdough bread, butter and Cheddar cheese
+        </description>
+        <calories>550</calories>
+    </food>
+    <food>
+        <name>Strawberry Belgian Waffles</name>
+        <price>$7.95</price>
+        <description>
+            Light Belgian waffles covered with strawberries and whipped cream
+        </description>
+        <calories>820</calories>
+    </food>
+    <food>
+        <name>Dulce De Leche Cake</name>
+        <price>$8.95</price>
+        <description>
+             Brown butter vanilla cake covered in silky dulce del leche buttercream
+        </description>
+        <calories>730</calories>
+    </food>
+    <food>
+        <name>French Toast</name>
+        <price>$4.50</price>
+        <description>
+            Thick slices made from our homemade sourdough bread
+        </description>
+        <calories>430</calories>
+    </food>
+    <food>
+        <name>Homestyle Breakfast</name>
+        <price>$6.95</price>
+        <description>
+            Scrambled eggs, melted cheese, toast and our ever-popular hash browns
+        </description>
+        <calories>690</calories>
+    </food>
+</breakfast_menu>
