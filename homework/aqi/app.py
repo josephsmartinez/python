@@ -12,8 +12,10 @@ def index():
     lat_long=aqi_api()
     google_api(lat_long)
     aqi_json = FileIO.read_from_file('aqi.json')
-    return render_template('index.html', lat_long=lat_long, aqi_json=aqi_json)
 
+
+
+    return render_template('index.html', lat_long=lat_long, aqi_json=aqi_json)
 
 if __name__== '__main__':
   # host is default to localhost

@@ -5,6 +5,7 @@
 import json, requests, googlemaps
 from fileio import FileIO
 from os import path
+from json2xml import json2xml, readfromurl, readfromstring, readfromjson
 
 def aqi_api(api_key=None,url=None) -> dict:
   '''
@@ -72,9 +73,22 @@ def google_api(lat_lon: dict) -> bool:
   
   return google_map_created
 
+def json_to_xml() -> bool:
+  '''
+  Converts json to xml
+  return -> boolean
+  '''
+
+  # Data should be written appended to a file with correct xml header 
+  # An xsl file should have all html/css stlying to render data from xml
+
+  data = readfromjson("aqi.json")
+  print(json2xml.Json2xml(data).to_xml())
+
 if __name__ == '__main__':
     lat_lon = aqi_api()
     google_map_created = google_api(lat_lon)
+    json_to_xml()
     if google_map_created:
       print("google image created!")
     

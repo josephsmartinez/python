@@ -30,3 +30,39 @@
 2019-02-21 17:54:42.565897 Pollution data {'ts': '2019-02-21T21:00:00.000Z', 'aqius': 2, 'mainus': 'n2', 'aqicn': 7, 'maincn': 'n2'} 
 2019-02-21 17:54:42.566046 latitude: -80.2156 longitude: 25.7947 
 2019-02-21 17:54:42.743050 google request:  200 object type:  image/png 
+2019-03-05 20:03:35.019450 {'status': 'success', 'data': {'city': 'Miami', 'state': 'Florida', 'country': 'USA', 'location': {'type': 'Point', 'coordinates': [-80.2156, 25.7947]}, 'current': {'weather': {'ts': '2019-03-06T00:00:00.000Z', 'hu': 68, 'ic': '02n', 'pr': 1019, 'tp': 22, 'wd': 330, 'ws': 5.1}, 'pollution': {'ts': '2019-03-05T23:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'}}}} <class 'dict'> 
+2019-03-05 20:03:35.024437 Pollution data {'ts': '2019-03-05T23:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'} 
+2019-03-05 20:03:35.024495 latitude: -80.2156 longitude: 25.7947 
+2019-03-05 20:03:35.325305 google request:  200 object type:  image/png 
+2019-03-05 20:38:26.514322 {'status': 'success', 'data': {'city': 'Miami', 'state': 'Florida', 'country': 'USA', 'location': {'type': 'Point', 'coordinates': [-80.2156, 25.7947]}, 'current': {'weather': {'ts': '2019-03-06T01:00:00.000Z', 'hu': 78, 'ic': '04n', 'pr': 1018, 'tp': 21, 'wd': 330, 'ws': 5.1}, 'pollution': {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'}}}} <class 'dict'> 
+2019-03-05 20:38:26.515805 Pollution data {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'} 
+2019-03-05 20:38:26.515859 latitude: -80.2156 longitude: 25.7947 
+2019-03-05 20:38:26.838298 google request:  200 object type:  image/png 
+2019-03-05 20:38:49.862714 {'status': 'success', 'data': {'city': 'Miami', 'state': 'Florida', 'country': 'USA', 'location': {'type': 'Point', 'coordinates': [-80.2156, 25.7947]}, 'current': {'weather': {'ts': '2019-03-06T01:00:00.000Z', 'hu': 78, 'ic': '04n', 'pr': 1018, 'tp': 21, 'wd': 330, 'ws': 5.1}, 'pollution': {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'}}}} <class 'dict'> 
+2019-03-05 20:38:49.863307 Pollution data {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'} 
+2019-03-05 20:38:49.863371 latitude: -80.2156 longitude: 25.7947 
+2019-03-05 20:38:50.069240 google request:  200 object type:  image/png 
+2019-03-05 20:40:37.655451 {'status': 'success', 'data': {'city': 'Miami', 'state': 'Florida', 'country': 'USA', 'location': {'type': 'Point', 'coordinates': [-80.2156, 25.7947]}, 'current': {'weather': {'ts': '2019-03-06T01:00:00.000Z', 'hu': 78, 'ic': '04n', 'pr': 1018, 'tp': 21, 'wd': 330, 'ws': 5.1}, 'pollution': {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'}}}} <class 'dict'> 
+2019-03-05 20:40:37.655858 Pollution data {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'} 
+2019-03-05 20:40:37.655946 latitude: -80.2156 longitude: 25.7947 
+2019-03-05 20:40:37.853113 google request:  200 object type:  image/png 
+2019-03-05 20:48:28.361235 {'status': 'success', 'data': {'city': 'Miami', 'state': 'Florida', 'country': 'USA', 'location': {'type': 'Point', 'coordinates': [-80.2156, 25.7947]}, 'current': {'weather': {'ts': '2019-03-06T01:00:00.000Z', 'hu': 78, 'ic': '04n', 'pr': 1018, 'tp': 21, 'wd': 330, 'ws': 5.1}, 'pollution': {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'}}}} <class 'dict'> 
+2019-03-05 20:48:28.362934 Pollution data {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'} 
+2019-03-05 20:48:28.363128 latitude: -80.2156 longitude: 25.7947 
+2019-03-05 20:48:28.569255 google request:  200 object type:  image/png 
+2019-03-05 20:50:37.651479 {'status': 'success', 'data': {'city': 'Miami', 'state': 'Florida', 'country': 'USA', 'location': {'type': 'Point', 'coordinates': [-80.2156, 25.7947]}, 'current': {'weather': {'ts': '2019-03-06T01:00:00.000Z', 'hu': 78, 'ic': '04n', 'pr': 1018, 'tp': 21, 'wd': 330, 'ws': 5.1}, 'pollution': {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'}}}} <class 'dict'> 
+2019-03-05 20:50:37.652242 Pollution data {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'} 
+2019-03-05 20:50:37.652353 latitude: -80.2156 longitude: 25.7947 
+2019-03-05 20:50:37.853738 google request:  200 object type:  image/png 
+2019-03-05 20:52:03.772174 {'status': 'success', 'data': {'city': 'Miami', 'state': 'Florida', 'country': 'USA', 'location': {'type': 'Point', 'coordinates': [-80.2156, 25.7947]}, 'current': {'weather': {'ts': '2019-03-06T01:00:00.000Z', 'hu': 78, 'ic': '04n', 'pr': 1018, 'tp': 21, 'wd': 330, 'ws': 5.1}, 'pollution': {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'}}}} <class 'dict'> 
+2019-03-05 20:52:03.772756 Pollution data {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'} 
+2019-03-05 20:52:03.772813 latitude: -80.2156 longitude: 25.7947 
+2019-03-05 20:52:03.965497 google request:  200 object type:  image/png 
+2019-03-05 20:52:40.219899 {'status': 'success', 'data': {'city': 'Miami', 'state': 'Florida', 'country': 'USA', 'location': {'type': 'Point', 'coordinates': [-80.2156, 25.7947]}, 'current': {'weather': {'ts': '2019-03-06T01:00:00.000Z', 'hu': 78, 'ic': '04n', 'pr': 1018, 'tp': 21, 'wd': 330, 'ws': 5.1}, 'pollution': {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'}}}} <class 'dict'> 
+2019-03-05 20:52:40.222115 Pollution data {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'} 
+2019-03-05 20:52:40.222186 latitude: -80.2156 longitude: 25.7947 
+2019-03-05 20:52:40.400943 google request:  200 object type:  image/png 
+2019-03-05 20:52:51.961358 {'status': 'success', 'data': {'city': 'Miami', 'state': 'Florida', 'country': 'USA', 'location': {'type': 'Point', 'coordinates': [-80.2156, 25.7947]}, 'current': {'weather': {'ts': '2019-03-06T01:00:00.000Z', 'hu': 78, 'ic': '04n', 'pr': 1018, 'tp': 21, 'wd': 330, 'ws': 5.1}, 'pollution': {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'}}}} <class 'dict'> 
+2019-03-05 20:52:51.961911 Pollution data {'ts': '2019-03-06T00:00:00.000Z', 'aqius': 4, 'mainus': 'n2', 'aqicn': 11, 'maincn': 'n2'} 
+2019-03-05 20:52:51.961965 latitude: -80.2156 longitude: 25.7947 
+2019-03-05 20:52:52.114906 google request:  200 object type:  image/png 
