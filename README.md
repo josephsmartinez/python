@@ -29,6 +29,11 @@ Stop env
 List installed package and libraries
 `pip freeze`
 
-## The Python Language Reference¶
+## The Python Language References
 
-[Ptyhon Language](https://docs.python.org/3/reference/index.html)
+[Ptyhon Language](https://docs.python.org/3/reference/index.html) 
+https://pypi.org/project/json2xml/
+http://docs.python-requests.org/en/master/user/quickstart/#response-status-codes
+https://github.com/googlemaps/google-maps-services-python'
+https://developers.google.com/maps/documentation/maps-static/dev-guide
+https://www.codementor.io/aviaryan/downloading-files-from-urls-in-python-77q3bs0un

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="aqi.xsl"?>
+<all>
+    <data>
+        <city>Miami</city>
+        <country>USA</country>
+        <current>
+            <pollution>
+                <aqicn>4</aqicn>
+                <aqius>1</aqius>
+                <maincn>n2</maincn>
+                <mainus>n2</mainus>
+                <ts>2019-03-09T05:00:00.000Z</ts>
+            </pollution>
+            <weather>
+                <hu>73</hu>
+                <ic>01n</ic>
+                <pr>1019</pr>
+                <tp>22</tp>
+                <ts>2019-03-09T06:00:00.000Z</ts>
+                <wd>120</wd>
+                <ws>4.6</ws>
+            </weather>
+        </current>
+        <location>
+            <coordinates>-80.2156</coordinates>
+            <coordinates>25.7947</coordinates>
+            <type>Point</type>
+        </location>
+        <state>Florida</state>
+    </data>
+    <status>success</status>
+</all>
