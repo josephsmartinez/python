@@ -57,8 +57,3 @@ def factoral(value):
         return value * factoral(value -1 )
 
 print("Factoral using recursion: ", factoral(4))
-
-
-
-
-print maxVal(10, 11)
