@@ -19,7 +19,11 @@ Ptyhon scratch pad
 ## Python Vitual Environment
 
 Install with pip or pip3  
-`pip3 install virtualenv`  
+`pip3 install virtualenv` 
+Python 2
+`virtualenv env`
+Python 3
+`python3 -m venv env`
 Create env  
 `virtualenv venv --python=python3.6`  
 Start env  
