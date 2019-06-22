@@ -1,4 +1,4 @@
 # Python environment installations
 venv/
-.vscode/
+*.code-workspace
 Data/
