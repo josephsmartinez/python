@@ -11,6 +11,15 @@
 - Application Programming Interface (APIs)
 - Data Bases
 
+## Using anaconda (conda)
+
+> conda info --envs
+> conda create --name myenv
+> conda activate
+> conda deactivate
+> conda env create -f example.yml
+> conda env export > /home/YOUR_NAME/Documents/example.yml
+
 ## AREPL for python
 
 Ptyhon scratch pad  
