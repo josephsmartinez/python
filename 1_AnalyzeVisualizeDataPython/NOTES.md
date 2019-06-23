@@ -1,4 +1,4 @@
-# NOTES
+# Learning Python for Data Analysis and Visualization
 
 http://cs231n.github.io/python-numpy-tutorial/
 
