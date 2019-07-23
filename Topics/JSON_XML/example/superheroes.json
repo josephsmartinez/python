@@ -1,0 +1,46 @@
+{
+    "squadName": "Super Component Heros",
+    "homeTown": "Pyami",
+    "formed": 2018,
+    "secretBase": "Super tower",
+    "active": true,
+    "members": [
+        {
+            "name": "Interface Man",
+            "age": 29,
+            "secretIdentity": "Don Metaphor",
+            "strength": 150,
+            "powers": [
+                "Minimalism",
+                "Turning tiny",
+                "Radiation blast",
+                "Color explosion"
+
+            ]
+        },
+        {
+            "name": "API Flame",
+            "age": 39,
+            "secretIdentity": "Jane Wilson",
+            "strength": 100,
+            "powers": [
+                "Million tonne punch",
+                "Damage resistance",
+                "Superhuman reflexes",
+                "Long distance hearing"
+            ]
+        },
+        {
+            "name": "Objectman",
+            "age": 1000,
+            "secretIdentity": "Unknown",
+            "strength": 85,
+            "powers": [
+                "Immortality",
+                "Overwrite Immunity",
+                "Teleportation",
+                "Polymorphism travel"
+            ]
+        }
+        ]
+}
