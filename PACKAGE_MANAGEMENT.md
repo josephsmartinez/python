@@ -1,5 +1,13 @@
 # Anaconda and Pythons Installations
 
+## AWS Deployments
+
+Packaging and zip for lambda (using conda)
+
+> conda list --export > requirements.txt
+> pip install -r requirements.txt -t .
+> zip -r Archive.zip .
+
 ## Convert IPython to .py file
 
 > jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb
@@ -11,12 +19,17 @@
 
 ## Using anaconda (conda)
 
+> conda list
 > conda info --envs
 > conda create --name myenv
 > conda activate
 > conda deactivate
 > conda env create -f example.yml
 > conda env export > /home/YOUR_NAME/Documents/example.yml
+
+pip freeze, like conda list --export, is more for generating requirements files for your environment. For example, if you have created a package in your customized environment with certain dependencies, you can do conda list --export > requirements.txt. When you are ready to distribute your package to other users, they can easily duplicate your environment and the associated dependencies with conda create --name <envname> --file requirements.txt.
+> conda list --export > requirements.txt
+> conda create --name <envname> --file requirements.txt
 
 ## pip
 
@@ -36,6 +49,9 @@
 > pipenv --python python3.7
 
 Resources:
+
+Managing packages
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html
 
 Anaconda Documentation
 https://docs.anaconda.com/

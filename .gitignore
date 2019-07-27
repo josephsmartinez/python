@@ -1,4 +1,14 @@
 # Python environment installations
 venv/
+
+# VScode workspaces
 *.code-workspace
+
+# Large test data files
 Data/
+
+# Resource libraries projects from Python AWS Lambda
+project/
+
+# Random hidden files
+.DS_Store
