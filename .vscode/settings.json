@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "/Users/jsonmart/anaconda3/bin/python"
+    "python.pythonPath": "/Users/josephmartinez/anaconda3/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
 }
