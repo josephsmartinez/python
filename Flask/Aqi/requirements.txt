@@ -9,7 +9,7 @@ idna==2.8
 itsdangerous==1.1.0
 Jinja2==2.10
 json2xml==3.0.0
-lxml==4.3.2
+lxml==4.6.3
 MarkupSafe==1.1.0
 Pillow==5.4.1
 pillowcase==2.0.0
